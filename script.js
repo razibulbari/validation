@@ -35,7 +35,7 @@ function showError1() {
         err1.style.display = "block";
         return;
     }
-    if (number.length < 11 || number.length > 11) {
+    if (number.length < 10 || number.length > 10) {
         err1.textContent = "*Number must be exactly 11 digits.";
         err1.style.display = "block";
         return;
