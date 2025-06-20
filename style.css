@@ -11,7 +11,7 @@ body{
 }
 
 .container {
-    width: 500px;
+    width: 90%;
     margin: 100px auto;
     padding: 20px;
     border: 2px solid #ccc;
@@ -80,3 +80,23 @@ body{
     color: red;
     display: none;
 }   
+
+/* ...existing code... */
+.phone-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.phone-row select,
+.phone-row input[type="text"] {
+    width: auto;
+    flex: 0 0 auto;
+}
+
+.phone-row input[type="text"]#number {
+    flex: 1 1 0;
+    min-width: 0;
+}
+/* ...existing code... */
