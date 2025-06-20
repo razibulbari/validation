@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: poppins, sans-serif;
+    background-color: rgb(2, 2, 73);
+}
+
+.container {
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-color: white;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input{
+    padding: 10px 5px;
+    border: none;
+    border-bottom: 5px solid whitesmoke;
+    outline: none;
+    transition: all 0.3s ease;
+}
+.form input:focus{
+    border-bottom: 5px solid darkblue;
+}
+
+
+.form textarea{
+    padding: 10px 5px;
+    border: none;
+    border-bottom: 5px solid whitesmoke;
+    outline: none;
+    transition: all 0.3s ease;
+    resize: none;
+}
+.form textarea:focus{
+    border-bottom: 5px solid darkblue;
+}
+
+.form button{
+    padding: 10px 5px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form button:hover{
+    background-color: rgb(0, 0, 128);
+}
+
+.form #req0{
+    color: red;
+    display: none;
+}
+
+.form #req1{
+    color: red;
+    display: none;
+}
+.form #req2{
+    color: red;
+    display: none;
+}
+.form #req3{
+    color: red;
+    display: none;
+}   
