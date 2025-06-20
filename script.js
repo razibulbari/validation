@@ -15,7 +15,7 @@ function showError() {
         err0.style.display = "block";
         return;
     } 
-    if (!name.match(/^[a-zA-Z]+$/)) {
+    if (!name.match(/^[a-zA-Z ]+$/)) {
         err0.textContent = "*Name must contain only letters.";
         err0.style.display = "block";
         return;
