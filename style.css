@@ -16,6 +16,7 @@ body{
     padding: 20px;
     border: 2px solid #ccc;
     background-color: white;
+    margin: auto;
 }
 
 .form{
