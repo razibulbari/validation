@@ -13,7 +13,6 @@ body{
 .container {
     width: 90%;
     height: 90%
-    margin: 100px auto;
     padding: 20px;
     border: 2px solid #ccc;
     background-color: white;
